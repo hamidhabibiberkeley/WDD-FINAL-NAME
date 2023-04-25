@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Turtle Sanctuary</title>
+        <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
+        <script type="text/javascript" src="assets/js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+
+    </head>
     <body>
-        FINAL
+        <audio id="music" autoplay >
+            <source src="assets/audio/The Pirate Shanty.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="document.getElementById('music').play()">▶</button>
+        <button onclick="document.getElementById('music').pause()">⏸</button>
+        <div id="turtle-load">
+            <img src="assets/img/turtle 1.png" width="126px" />
+        </div>
+        <div id="god">
+            <p id="god-text"> When god sings with his creations <br> the turtle will be first in the choir.</p>
+        </div>
+        <div id="turtleWalk">
+            <img src="assets/img/turtle walking.gif" />
+        </div>
     </body>
 </html>
